@@ -129,26 +129,128 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
 
-                    <% for (int i = 1; i <= 11; i++) { %>
+<!-- MENU 1 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Evaporation</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
+    </ul>
+</li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
-                           href="javascript:void(0);"
-                           data-bs-toggle="dropdown">
-                            Menu <%= i %>
-                        </a>
+<!-- MENU 2 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 2</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
+    </ul>
+</li>
 
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="#">Temperature</a></li>
-                            <li><a class="dropdown-item" href="#">Pressure</a></li>
-                            <li><a class="dropdown-item" href="#">Level Transmitter</a></li>
-                            <li><a class="dropdown-item" href="#">Flow</a></li>
-                        </ul>
-                    </li>
+<!-- MENU 3 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 3</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
+    </ul>
+</li>
 
-                    <% } %>
+<!-- MENU 4 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 4</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
+    </ul>
+</li>
 
-                </ul>
+<!-- MENU 5 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 5</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
+    </ul>
+</li>
+
+<!-- MENU 6 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 6</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
+    </ul>
+</li>
+
+<!-- MENU 7 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 7</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
+    </ul>
+</li>
+
+<!-- MENU 8 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 8</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
+    </ul>
+</li>
+
+<!-- MENU 9 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 9</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
+    </ul>
+</li>
+
+<!-- MENU 10 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 10</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=10">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=20">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=30">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=40">Flow</a></li>
+    </ul>
+</li>
+
+<!-- MENU 11 -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 11</a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=11">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=21">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=31">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=41">Flow</a></li>
+    </ul>
+</li>
+
+</ul>
             </div>
 
         </div>
