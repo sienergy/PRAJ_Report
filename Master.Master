@@ -134,20 +134,20 @@
     <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Evaporation</a>
     <ul class="dropdown-menu dropdown-menu-end">
         <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
-        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
-        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Level</a></li>
         <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
     </ul>
 </li>
 
 <!-- MENU 2 -->
 <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 2</a>
+    <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Liqufication</a>
     <ul class="dropdown-menu dropdown-menu-end">
-        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a></li>
-        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
-        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
-        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_LIQU&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_LIQU&type=3">Pressure</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_LIQU&type=2">Level</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_LIQU&type=4">Flow</a></li>
     </ul>
 </li>
 
