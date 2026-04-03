@@ -156,7 +156,7 @@
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="javascript:void(0);" data-bs-toggle="dropdown">Menu 3</a>
     <ul class="dropdown-menu dropdown-menu-end">
-        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_&type=1">Temperature</a></li>
+        <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_DIST&type=1">Temperature</a></li>
         <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Pressure</a></li>
         <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Level</a></li>
         <li><a class="dropdown-item" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a></li>
