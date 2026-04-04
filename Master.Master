@@ -175,33 +175,77 @@
 
         <ul class="nav flex-column">
 
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="collapse" href="#evap">
-                    <i class="fa fa-industry"></i>
-                    <span>Evaporation</span>
-                </a>
-                <div class="collapse" id="evap">
-                    <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a>
-                    <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Level</a>
-                    <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Pressure</a>
-                    <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a>
-                </div>
-            </li>
+    <!-- 🔥 EVAPORATION -->
+    <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#evap">
+            <i class="fa fa-fire me-2"></i>
+            <span>Evaporation</span>
+        </a>
+        <div class="collapse" id="evap">
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_EVAP&type=1">Temperature</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_EVAP&type=2">Level</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_EVAP&type=3">Pressure</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_EVAP&type=4">Flow</a>
+        </div>
+    </li>
 
-            <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="collapse" href="#liq">
-                    <i class="fa fa-flask"></i>
-                    <span>Liquification</span>
-                </a>
-                <div class="collapse" id="liq">
-                    <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_LIQU&type=1">Temperature</a>
-                    <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_LIQU&type=2">Level</a>
-                    <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_LIQU&type=3">Pressure</a>
-                    <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_LIQU&type=4">Flow</a>
-                </div>
-            </li>
+    <!-- 🔥 LIQUEFACTION -->
+    <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#liq">
+            <i class="fa fa-snowflake me-2"></i>
+            <span>Liquefaction</span>
+        </a>
+        <div class="collapse" id="liq">
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_LIQU&type=1">Temperature</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_LIQU&type=2">Level</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_LIQU&type=3">Pressure</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_LIQU&type=4">Flow</a>
+        </div>
+    </li>
 
-        </ul>
+    <!-- 🔥 DISTILLATION -->
+    <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#dist">
+            <i class="fa fa-industry me-2"></i>
+            <span>Distillation</span>
+        </a>
+        <div class="collapse" id="dist">
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_DIST&type=1">Temperature</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_DIST&type=2">Level</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_DIST&type=3">Pressure</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_DIST&type=4">Flow</a>
+        </div>
+    </li>
+
+    <!-- 🔥 FERMENTATION -->
+    <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#ferm">
+            <i class="fa fa-flask me-2"></i>
+            <span>Fermentation</span>
+        </a>
+        <div class="collapse" id="ferm">
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_FERM&type=1">Temperature</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_FERM&type=2">Level</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_FERM&type=3">Pressure</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_FERM&type=4">Flow</a>
+        </div>
+    </li>
+
+    <!-- 🔥 DECANTATION -->
+    <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#deca">
+            <i class="fa fa-filter me-2"></i>
+            <span>Decantation</span>
+        </a>
+        <div class="collapse" id="deca">
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_DECA&type=1">Temperature</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_DECA&type=2">Level</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_DECA&type=3">Pressure</a>
+            <a class="nav-link sub" href="Distillation.aspx?db=PRAJ_DECA&type=4">Flow</a>
+        </div>
+    </li>
+
+</ul>
 
     </div>
 

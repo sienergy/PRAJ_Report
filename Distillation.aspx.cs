@@ -195,11 +195,14 @@ namespace PRAJ_Report
                 if (!string.IsNullOrEmpty(typeStr))
                     type = Convert.ToInt32(typeStr);
 
+                // 🔥 GET INTERVAL
+                int interval = Convert.ToInt32(ddlInterval.SelectedValue);
+
                 string connStr = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
 
                 using (SqlConnection con = new SqlConnection(connStr))
                 {
-                    using (SqlCommand cmd = new SqlCommand("GetTagData", con))
+                    using (SqlCommand cmd = new SqlCommand("GetTagData1", con))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
 
@@ -207,6 +210,9 @@ namespace PRAJ_Report
                         cmd.Parameters.AddWithValue("@EndDate", endDate);
                         cmd.Parameters.AddWithValue("@DBName", dbName);
                         cmd.Parameters.AddWithValue("@Type", type);
+
+                        // 🔥 NEW PARAMETER
+                        cmd.Parameters.AddWithValue("@Interval", interval);
 
                         SqlDataAdapter da = new SqlDataAdapter(cmd);
                         DataTable dt = new DataTable();
@@ -223,7 +229,6 @@ namespace PRAJ_Report
             }
         }
 
-
         protected void btnExport_Click(object sender, EventArgs e)
         {
             // 🔥 GET INPUT
@@ -232,6 +237,7 @@ namespace PRAJ_Report
 
             string dbName = Request.QueryString["db"];
             int type = Convert.ToInt32(Request.QueryString["type"]);
+            int interval = Convert.ToInt32(ddlInterval.SelectedValue);
 
             DataTable dt = new DataTable();
 
@@ -240,7 +246,7 @@ namespace PRAJ_Report
             // 🔥 FETCH DATA FROM SQL
             using (SqlConnection con = new SqlConnection(connStr))
             {
-                using (SqlCommand cmd = new SqlCommand("GetTagData", con))
+                using (SqlCommand cmd = new SqlCommand("GetTagData1", con))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
 
@@ -248,6 +254,7 @@ namespace PRAJ_Report
                     cmd.Parameters.AddWithValue("@EndDate", endDate);
                     cmd.Parameters.AddWithValue("@DBName", dbName);
                     cmd.Parameters.AddWithValue("@Type", type);
+                    cmd.Parameters.AddWithValue("@Interval", interval);
 
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
                     da.Fill(dt);

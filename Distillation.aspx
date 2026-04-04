@@ -96,23 +96,33 @@
 <div class="card-box">
     <div class="row g-3 align-items-end">
 
-        <div class="col-md-3">
+        <div class="col-md-2 d-grid">
             <label><b>Start Date</b></label>
             <asp:TextBox ID="txtStartDate" runat="server" CssClass="form-control" TextMode="DateTimeLocal"></asp:TextBox>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-2 d-grid">
             <label><b>End Date</b></label>
             <asp:TextBox ID="txtEndDate" runat="server" CssClass="form-control" TextMode="DateTimeLocal"></asp:TextBox>
         </div>
-
-        <div class="col-md-3 d-grid">
+        <div class="col-md-2 d-grid">
+    <label><b>Interval</b></label>
+    <asp:DropDownList ID="ddlInterval" runat="server" CssClass="form-control">
+        <asp:ListItem Text="1 Minute" Value="1" />
+        <asp:ListItem Text="5 Minutes" Value="5" Selected="True" />
+        <asp:ListItem Text="15 Minutes" Value="15" />
+        <asp:ListItem Text="30 Minutes" Value="30" />
+        <asp:ListItem Text="1 Hour" Value="60" />
+        <asp:ListItem Text="2 Hours" Value="120" />
+    </asp:DropDownList>
+</div>
+        <div class="col-md-2 d-grid">
             <asp:Button ID="btnShow" runat="server"
                 Text="🚀 Show Report"
                 CssClass="btn btn-custom"
                 OnClick="btnShow_Click" />
         </div>
-        <div class="col-md-3 d-grid">
+        <div class="col-md-2 d-grid">
     <asp:Button ID="btnExport" runat="server"
     Text="📥 Export to Excel"
     CssClass="btn btn-export"
